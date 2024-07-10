@@ -333,9 +333,9 @@
 // Apellido: ${apellido}
 // Número de Documento: ${numeroDocumento}
 // Fecha de Nacimiento: ${fechaNacimiento}
-// Dirección: ${direccion}
 // Ciudad: ${ciudad}
 // País: ${pais}
+
 
 // ¿Son correctos? (sí/no)`;
 
@@ -349,9 +349,9 @@
 //         Apellido: apellido,
 //         NumeroDocumento: numeroDocumento,
 //         FechaNacimiento: fechaNacimiento,
-//         Direccion: direccion,
 //         Ciudad: ciudad,
 //         Pais: pais
+//        
 //     };
 
 
