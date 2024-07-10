@@ -327,7 +327,7 @@
 // let ciudad = prompt("Ingresa tu ciudad:");
 // let pais = prompt("Ingresa tu país:");
 
-// // Mostrar los datos ingresados y preguntar si están correctos
+
 // let datosConfirmacion = `Los datos ingresados son:
 // Nombre: ${nombre}
 // Apellido: ${apellido}
@@ -341,7 +341,7 @@
 
 // let confirmacion = prompt(datosConfirmacion).toLowerCase();
 
-// // Verificar la confirmación del usuario
+
 // if (confirmacion === 'sí' || confirmacion === 'si') {
 //     // Crear el objeto dni con los datos ingresados
 //     let dni = {
@@ -354,7 +354,7 @@
 //         Pais: pais
 //     };
 
-//     // Mostrar el objeto en la consola con console.table()
+
 //     console.table(dni);
 //     console.log("Registro exitoso");
 // } else {
