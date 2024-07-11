@@ -109,7 +109,7 @@ let poseeEntrada = prompt("¿Posee entrada? (si, no, s, n, true, false):");
 
 
 if (nombre === myName || pase === "vip" || pase === "VIP") {
-    alert("¡Bienvenido!");
+    console.log("¡Bienvenido!");
 } else {
     
     if (poseeEntrada === "si" || poseeEntrada === "s" || poseeEntrada === "true" || poseeEntrada === "SI" || poseeEntrada === "S" || poseeEntrada === "TRUE") {
@@ -117,7 +117,7 @@ if (nombre === myName || pase === "vip" || pase === "VIP") {
         if (usarEntrada === "si" || usarEntrada === "s") {
             alert("¡Bienvenido!");
         } else {
-            alert("Gracias, disfrute su día.");
+            console.log("Gracias, disfrute su día.");
         }
     } else {
       
@@ -127,16 +127,16 @@ if (nombre === myName || pase === "vip" || pase === "VIP") {
             if (dineroDisponible >= 1000) {
                 alert("Venta de entrada exitosa. ¡Bienvenido!");
             } else {
-                alert("Dinero insuficiente. Venta de entrada rechazada.");
+                console.log("Dinero insuficiente. Venta de entrada rechazada.");
             }
         } else {
-            alert("Gracias, que tenga un buen día.");
+          console.log("Gracias, que tenga un buen día.");
         }
     }
 }
 
 
-// Ejercicio 8
+ // Ejercicio 8
 
 let numeroIncognita;
 let numeroBase = 8;
@@ -336,7 +336,7 @@ let confirmacion = prompt(datosConfirmacion).toLowerCase();
 
 
 if (confirmacion === 'sí' || confirmacion === 'si') {
-    // Crear el objeto dni con los datos ingresados
+
     let dni = {
         Nombre: nombre,
         Apellido: apellido,
