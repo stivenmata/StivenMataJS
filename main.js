@@ -138,43 +138,55 @@ if (nombre === myName || pase === "vip" || pase === "VIP") {
 
  // Ejercicio 8
 
-let numeroIncognita;
-let numeroBase = 8;
-let intervalo = 10;
-let incremento = 1;
-let numeroGenerado = 0;
+let numeroIncognita = 8;
 
-for (let i = 0; i < intervalo; i++) {
-    if (numeroGenerado === i) {
-        numeroIncognita = numeroBase + i;
-        break;
-    }
-    incremento++;
-    if (incremento > intervalo) {
-        incremento = 1;
-    }
-}
-
-let intentos = 3;
-let haGanado = false; 
-
-for (let i = 0; i < intentos; i++) {
-    let numeroIngresado = parseInt(prompt("Ingresa un número entre 1 y 10:"));
+ let numeroIngresado = parseInt(prompt("Ingresa un número entre 1 y 10:"));
 
     if (numeroIngresado === numeroIncognita) {
         alert("¡Ganaste, has adivinado el número!");
-        haGanado = true;
-        break; 
-    } else if (numeroIngresado > numeroIncognita) {
-        alert("El número ingresado es mayor, vuelve a intentarlo.");
-    } else if (numeroIngresado < numeroIncognita) {
-        alert("El número ingresado es menor, vuelve a intentarlo.");
+    } else {
+        if (numeroIngresado < numeroIncognita) {
+
+            alert("El número ingresado es menor, vuelve a intentarlo.");
+        } else {
+            alert("El número ingresado es mayor, vuelve a intentarlo.");
+            
+        }
     }
 
-    if (i === intentos - 1 && !haGanado) {
-        alert("Lo siento, has agotado todos tus intentos. El número era " + numeroIncognita + ".");
+
+    
+
+
+
+ numeroIngresado = parseInt(prompt("Ingresa un número entre 1 y 10:"));
+
+    if (numeroIngresado === numeroIncognita) {
+        alert("¡Ganaste, has adivinado el número!");
+    } else {
+        if (numeroIngresado < numeroIncognita) {
+
+            alert("El número ingresado es menor, vuelve a intentarlo.");
+        } else {
+            alert("El número ingresado es mayor, vuelve a intentarlo.");
+            
+        }
     }
-}
+        
+    numeroIngresado = parseInt(prompt("Ingresa un número entre 1 y 10:"));
+
+    if (numeroIngresado === numeroIncognita) {
+        alert("¡Ganaste, has adivinado el número!");
+    } else {
+        alert("Lo sentimos, has perdido")
+    }
+     
+
+            
+        
+    
+
+
 
 // Ejercicio 9
 
