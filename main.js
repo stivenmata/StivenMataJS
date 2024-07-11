@@ -115,7 +115,7 @@ if (nombre === myName || pase === "vip" || pase === "VIP") {
     if (poseeEntrada === "si" || poseeEntrada === "s" || poseeEntrada === "true" || poseeEntrada === "SI" || poseeEntrada === "S" || poseeEntrada === "TRUE") {
         let usarEntrada = prompt("¿Desea utilizar su entrada? (si o no, s o n)");
         if (usarEntrada === "si" || usarEntrada === "s") {
-            alert("¡Bienvenido!");
+            console.log("¡Bienvenido!");
         } else {
             console.log("Gracias, disfrute su día.");
         }
@@ -125,7 +125,7 @@ if (nombre === myName || pase === "vip" || pase === "VIP") {
         if (comprarEntrada === "si" || comprarEntrada === "s") {
             var dineroDisponible = parseFloat(prompt("Ingrese su dinero disponible:"));
             if (dineroDisponible >= 1000) {
-                alert("Venta de entrada exitosa. ¡Bienvenido!");
+                console.log("Venta de entrada exitosa. ¡Bienvenido!");
             } else {
                 console.log("Dinero insuficiente. Venta de entrada rechazada.");
             }
